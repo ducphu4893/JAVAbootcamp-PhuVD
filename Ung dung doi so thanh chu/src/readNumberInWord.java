@@ -4,9 +4,9 @@ public class readNumberInWord {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number: ");
-        int number = sc.nextInt();
-        String n = Integer.toString(number);
-        if(number < 10 && number > 0){
+        int input = sc.nextInt();
+        String number = Integer.toString(input);
+        if(input < 10 && input > 0){
             switch (number){
                 case 1:
                     System.out.println("One");
@@ -37,8 +37,8 @@ public class readNumberInWord {
                     break;
             }
         }
-        if(number >= 10 && number < 20){
-            char a = n.charAt(1);
+        if(input >= 10 && input < 20){
+            char a = number.charAt(1);
             int a1 = Integer.parseInt(Character.toString(a));
             switch (a1){
                 case 0:
@@ -73,7 +73,7 @@ public class readNumberInWord {
                     break;
             }
         }
-        if(number >= 20 && number < 100){
+        if(input >= 20 && input < 100){
             String str1 = " ";
             String str2 = " ";
             char b = n.charAt(0);
@@ -137,11 +137,11 @@ public class readNumberInWord {
             }
             System.out.println(str1 + " " + str2);
         }
-        if(number >= 100 && number < 110){
+        if(input >= 100 && input < 110){
             String str3 = " ";
             String str4 = " ";
-            char d = n.charAt(0);
-            char e = n.charAt(2);
+            char d = number.charAt(0);
+            char e = number.charAt(2);
             int d1 = Integer.parseInt(Character.toString(d));
             int e1 = Integer.parseInt(Character.toString(e));
             switch(d1){
@@ -204,11 +204,11 @@ public class readNumberInWord {
             }
             System.out.println(str3 + " " + str4);
         }
-        if (number >= 110 && number < 120){
+        if (input >= 110 && input < 120){
             String str5 = " ";
             String str6 = " ";
-            char f = n.charAt(0);
-            char g = n.charAt(2);
+            char f = number.charAt(0);
+            char g = number.charAt(2);
             int f1 = Integer.parseInt(Character.toString(f));
             int g1 = Integer.parseInt(Character.toString(g));
             switch(f1){
@@ -271,13 +271,13 @@ public class readNumberInWord {
             }
             System.out.println(str5 + " " + str6);
         }
-        if(number >= 121 && number < 1000){
+        if(input >= 121 && input < 1000){
             String str7 = " ";
             String str8 = " ";
             String str9 = " ";
-            char h = n.charAt(0);
-            char i = n.charAt(1);
-            char j = n.charAt(2);
+            char h = number.charAt(0);
+            char i = number.charAt(1);
+            char j = number.charAt(2);
             int h1 = Integer.parseInt(Character.toString(h));
             int i1 = Integer.parseInt(Character.toString(i));
             int j1 = Integer.parseInt(Character.toString(j));
